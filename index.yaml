@@ -1,9 +1,31 @@
 apiVersion: v1
 entries:
+  altinity-clickhouse-operator:
+  - apiVersion: v2
+    appVersion: 0.23.3
+    created: "2024-05-06T11:10:19.35705+07:00"
+    description: 'Helm chart to deploy [altinity-clickhouse-operator](https://github.com/Altinity/clickhouse-operator).  The
+      ClickHouse Operator creates, configures and manages ClickHouse clusters running
+      on Kubernetes.  For upgrade please install CRDs separately: ```bash   kubectl
+      apply -f https://github.com/Altinity/clickhouse-operator/raw/master/deploy/helm/crds/CustomResourceDefinition-clickhouseinstallations.clickhouse.altinity.com.yaml   kubectl
+      apply -f https://github.com/Altinity/clickhouse-operator/raw/master/deploy/helm/crds/CustomResourceDefinition-clickhouseinstallationtemplates.clickhouse.altinity.com.yaml   kubectl
+      apply -f https://github.com/Altinity/clickhouse-operator/raw/master/deploy/helm/crds/CustomResourceDefinition-clickhouseoperatorconfigurations.clickhouse.altinity.com.yaml
+      ```'
+    digest: ccd34b1c31b404b50f905edaa5be9c25d839f676a8a5c918f69e72555fdf96b9
+    home: https://github.com/Altinity/clickhouse-operator
+    icon: https://logosandtypes.com/wp-content/uploads/2020/12/altinity.svg
+    maintainers:
+    - email: support@altinity.com
+      name: altinity
+    name: altinity-clickhouse-operator
+    type: application
+    urls:
+    - https://meong1234.github.io/envoygateway-helm/altinity-clickhouse-operator-0.23.3.tgz
+    version: 0.23.3
   gateway-helm:
   - apiVersion: v2
     appVersion: latest
-    created: "2024-03-21T10:00:59.954746+07:00"
+    created: "2024-05-06T11:10:19.366607+07:00"
     description: The Helm chart for Envoy Gateway
     digest: fcee19af89ad5c07b376928deb3a4978376ba9e55cd9dfda83ec9ba555a5913d
     home: https://gateway.envoyproxy.io/
@@ -27,7 +49,7 @@ entries:
     version: v1.0.0-latest
   - apiVersion: v2
     appVersion: latest
-    created: "2024-03-21T10:00:59.950062+07:00"
+    created: "2024-05-06T11:10:19.361998+07:00"
     description: The Helm chart for Envoy Gateway
     digest: e6e16c6a2919a414862c09c84ae7c486d25083c8cc4c61e75f6bbbae4a07ab88
     home: https://gateway.envoyproxy.io/
@@ -49,4 +71,4 @@ entries:
     urls:
     - https://meong1234.github.io/envoygateway-helm/gateway-helm-v0.0.0-latest.tgz
     version: v0.0.0-latest
-generated: "2024-03-21T10:00:59.944375+07:00"
+generated: "2024-05-06T11:10:19.353983+07:00"
